@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    background-color: #e6f9f9;
+    display: flex;
+    margin: 0;
+}
+
+body > div {
+    width: 50%;
+}
+
+.choiseKnopka {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    flex-direction: column;
+}
+
+.choiseKnopka > div {
+    display: flex;
+}
+
+.div1 {
+    display: flex;
+    margin-left: 50px;
+    width: 100%;
+
+}
+
+#div1 {
+    margin-top: 15px;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-style: solid;
+    border-color: #81acb9;
+    padding: 0px;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+#krestik {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffefd3;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: orange;
+    border: 3px solid #de9002;
+    box-shadow: 0px 10px 20px #b5b0a5;
+    outline: 0;
+}
+
+#nolik {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e2d3ff;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #006ad6;
+    border: 3px solid #004e9e;
+    box-shadow: 0px 10px 20px #b5b0a5;
+    outline: 0;
+    margin-left: 50px;
+}
+
+#div4 {
+    font-size: 65px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
